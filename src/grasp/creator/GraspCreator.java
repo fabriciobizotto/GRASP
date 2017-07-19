@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- * Padrão de projeto <b>GRASP - Information Expert</b>
+ * Padrão de projeto <b>GRASP - Creator</b>
  *
  * Foram criados três produtos e uma venda. Foram adicionados os três produtos
  * na venda, com quantidades diferentes.

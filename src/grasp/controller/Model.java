@@ -3,24 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package grasp.low_coupling;
+package grasp.controller;
 
 /**
  *
  * @author fabricio
  */
-public class Macaco extends Animal {
+public class Model {
 
     private String nome;
 
-    public Macaco(String nome) {
-        super(nome);
+    public Model() {
+    }
+
+    public Model(String nome) {
         this.nome = nome;
     }
 
-    @Override
-    public String toString() {
-        return "Macaco{" + "nome=" + nome + '}';
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
 }

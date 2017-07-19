@@ -1,4 +1,4 @@
-package grasp.low_coupling;
+package grasp.low_coupling2;
 
 /**
  * Classe mãe
