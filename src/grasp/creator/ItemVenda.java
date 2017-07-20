@@ -5,10 +5,8 @@
  */
 package grasp.creator;
 
-import grasp.information_expert.*;
-
 /**
- * Padrão de projeto <b>GRASP - Information Expert</b>
+ * Padrão de projeto <b>GRASP - Creator</b>
  *
  * @author fabricio
  */

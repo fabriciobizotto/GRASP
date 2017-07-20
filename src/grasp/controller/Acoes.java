@@ -12,4 +12,5 @@ package grasp.controller;
 public interface Acoes {
 
     public void salvar(View view);
+    public void listar(View view);
 }

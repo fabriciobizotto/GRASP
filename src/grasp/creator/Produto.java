@@ -6,7 +6,7 @@
 package grasp.creator;
 
 /**
- * Padrão de projeto <b>GRASP - Information Expert</b>
+ * Padrão de projeto <b>GRASP - Creator</b>
  *
  * @author fabricio
  */

@@ -25,7 +25,6 @@ public class Controller implements Acoes {
     public void salvar(View view) {
         lista.add(model);
         System.out.println("Salvo com sucesso!");
-        view.imprimirDados();
     }
 
     public Model getModel() {
@@ -42,6 +41,11 @@ public class Controller implements Acoes {
 
     public static void setLista(List<Model> lista) {
         Controller.lista = lista;
+    }
+
+    @Override
+    public void listar(View view) {
+        view.imprimirDados();
     }
 
 }

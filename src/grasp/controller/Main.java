@@ -17,5 +17,8 @@ public class Main {
         view.salvar("Roberto");
         view.salvar("Larissa");
         view.salvar("Geovani");
+        
+        System.out.println("**********************************");
+        view.imprimirDados();
     }
 }
